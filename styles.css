@@ -1,64 +1,73 @@
-/* Reset some default styles */
-html, body, ul {
+/* styles.css */
+
+/* Reset default styles */
+* {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
-/* Global Styles */
+/* Set a base font size and font family */
 body {
   font-family: Arial, sans-serif;
   font-size: 16px;
-  line-height: 1.5;
-  background-color: #f4f4f4;
-  color: #333;
 }
 
-.container {
-  max-width: 960px;
-  margin: 0 auto;
+/* Navigation bar styles */
+nav {
+  background: #ffffff; /* Adjust the color as per your preference */
   padding: 20px;
-}
-
-h1, h2 {
-  margin-bottom: 10px;
-}
-
-/* Header Styles */
-header {
-  background-color: #333;
-  color: #fff;
-  padding: 10px 0;
 }
 
 nav ul {
   list-style: none;
-  text-align: center;
+  display: flex;
+  justify-content: flex-end;
 }
 
 nav ul li {
-  display: inline-block;
-  margin: 0 10px;
+  margin-right: 20px;
 }
 
 nav ul li a {
-  color: #fff;
   text-decoration: none;
+  color: #000000; /* Adjust the color as per your preference */
 }
 
-/* Section Styles */
-section {
-  padding: 40px 0;
-  text-align: center;
+/* Home section styles */
+#home {
+  /* Add your styles for the home section */
 }
 
-section h2 {
-  font-size: 24px;
+/* About section styles */
+#about {
+  /* Add your styles for the about section */
 }
 
-/* Footer Styles */
+/* Projects section styles */
+#projects {
+  /* Add your styles for the projects section */
+}
+
+/* Blog section styles */
+#blog {
+  /* Add your styles for the blog section */
+}
+
+/* Contact section styles */
+#contact {
+  /* Add your styles for the contact section */
+}
+
+/* Footer styles */
 footer {
-  background-color: #333;
-  color: #fff;
+  background: #f0f0f0; /* Adjust the color as per your preference */
+  padding: 20px;
   text-align: center;
-  padding: 10px 0;
+  font-size: 14px;
+}
+
+/* Media queries for responsiveness */
+@media screen and (max-width: 600px) {
+  /* Add your responsive styles here */
 }
